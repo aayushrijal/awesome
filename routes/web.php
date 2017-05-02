@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+$router->get(
+    '/',
+    array(
+        'as'   => 'home',
+        'uses' => 'HomeController@index',
+    )
+);
+
+$router->get(
+    'gallery',
+    array(
+        'as'   => 'gallery',
+        'uses' => 'HomeController@gallery',
+    )
+);

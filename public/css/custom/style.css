@@ -1,0 +1,113 @@
+body, html {
+    overflow-x: hidden;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+nav.navbar {
+    background: transparent;
+    position: absolute;
+    border: none;
+    width: 100%;
+}
+
+.hero-wrapper {
+    background: url('../../images/bg.jpg') fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-banner {
+    text-align: center;
+}
+
+.main-name {
+    font-size: 4em;
+}
+
+.gallery-wrapper {
+    background: url('../../images/bg.jpg') fixed;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.intro {
+    width: 80%;
+    font-size: 15px;
+    margin: 150px auto;
+}
+
+.gallery {
+    margin: 75px auto;
+}
+
+.gallery-image {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.gallery-btn-wrapper {
+    text-align: center;
+}
+
+.awesome-btn {
+    margin-top: 43px;
+    background-color: transparent;
+    color: #000;
+    border-radius: 0;
+    width: 170px;
+    line-height: 30px;
+    border: 2px solid #000;
+    transition: 0.3s all;
+}
+
+.awesome-btn:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    transition: 0.3s all;
+}
+
+.contact {
+    width: 80%;
+    font-size: 15px;
+    margin: 75px auto;
+}
+
+.footer-wrapper {
+    background: #000;
+    height: 20vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.social-links {
+    padding-top: 30px;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.social-links li a {
+    color: rgba(255, 255, 255, 0.3);
+    display: block;
+    margin: 0 6px;
+}
+
+.copyright {
+    padding: 20px;
+    text-align: center;
+}
+
+.copyright a {
+    padding-left: 45px;
+    color: #fff;
+}
