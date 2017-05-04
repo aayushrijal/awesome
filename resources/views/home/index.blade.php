@@ -22,14 +22,14 @@
 
 		</div>
 	</div>
-	<div class="gallery-wrapper">
+	<div class="intro-wrapper">
 	</div>
 	<div class="container">
 		<div class="intro">
 			<p>{{ config('body.personal_description') }}</p>
 		</div>
 	</div>
-	<div class="gallery-wrapper">
+	<div class="contact-wrapper">
 
 	</div>
 	<div class="container">
