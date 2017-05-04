@@ -8,7 +8,11 @@
 
 @section('content')
 	<div class="gallery-wrapper">
-
+		<div class="container">
+			<div class="hero-banner">
+				<div class="main-name gallery-banner-text">{{ config('body.main_name') }}</div>
+			</div>
+		</div>
 	</div>
 	<div class="container">
 		<div id="grid-gallery" class="grid-gallery">
@@ -16,47 +20,42 @@
 				<ul class="grid">
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img01"/>
+							<img src="{{asset('images/1.jpg')}}" alt="img01"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img02"/>
+							<img src="{{asset('images/2.jpg')}}" alt="img02"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img03"/>
+							<img src="{{asset('images/3.jpg')}}" alt="img03"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img04"/>
+							<img src="{{asset('images/4.jpg')}}" alt="img04"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img05"/>
+							<img src="{{ asset('images/5.jpg')}}" alt="img05"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img06"/>
+							<img src="{{asset('images/6.jpg')}}" alt="img06"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img01"/>
+							<img src="{{asset('images/7.jpg')}}" alt="img01"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img02"/>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img03"/>
+							<img src="{{asset('images/8.jpg')}}" alt="img02"/>
 						</figure>
 					</li>
 				</ul>
@@ -65,47 +64,42 @@
 				<ul>
 					<li>
 						<figure>
-							<img src="{{asset('images/dummy.jpg')}}" alt="img01"/>
+							<img src="{{asset('images/1.jpg')}}" alt="img01"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img02"/>
+							<img src="{{ asset('images/2.jpg')}}" alt="img02"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img03"/>
+							<img src="{{ asset('images/3.jpg')}}" alt="img03"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img04"/>
+							<img src="{{ asset('images/4.jpg')}}" alt="img04"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img05"/>
+							<img src="{{ asset('images/5.jpg')}}" alt="img05"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img06"/>
+							<img src="{{ asset('images/6.jpg')}}" alt="img06"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img01"/>
+							<img src="{{ asset('images/7.jpg')}}" alt="img01"/>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img02"/>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="{{ asset('images/dummy.jpg')}}" alt="img03"/>
+							<img src="{{ asset('images/8.jpg')}}" alt="img02"/>
 						</figure>
 					</li>
 				</ul>

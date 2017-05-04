@@ -25,6 +25,19 @@
 	</div>
 </nav>
 @yield('content')
+<div class="footer-wrapper">
+	<ul class="social-links text-center">
+		<li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+		<li><a href="http://www.facebook.com/roshny.adhikary" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+		</li>
+		<li><a href="https://www.instagram.com/_nittygrittylight" target="_blank"><i class="fa fa-instagram
+			fa-2x"></i></a>
+		</li>
+	</ul>
+	<div class="copyright">
+		<a href="{{ route('home') }}"><i class="fa fa-copyright fa-lg"></i> {{ config('body.main_name') }} 2017</a>
+	</div>
+</div>
 <script src="{{ asset('js/vendor/bootstrap.min.js')}}"></script>
 @yield('script')
 </body>

@@ -34,30 +34,27 @@
 	</div>
 	<div class="container">
 		<div class="contact">
+			<div class="status-messages">
+				@if(Session::has('error'))
+					{{ Session::get('error') }}
+				@elseif(Session::has('success'))
+					{{ Session::get('success') }}
+				@endif
+			</div>
 			<p>{{ config('body.get_in_touch') }}</p>
-			<form>
+			<form action="{{ route('message') }}" method="post">
+				{{csrf_field()}}
 				<div class="form-group">
 					<p>Email address *</p>
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+						   required>
 				</div>
 				<div class="form-group">
 					<p>Message *</p>
-					<textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
+					<textarea name="message" class="form-control" id="" cols="30" rows="5" required></textarea>
 				</div>
 				<button type="submit" class="btn btn-default awesome-btn">SEND</button>
 			</form>
-		</div>
-	</div>
-	<div class="footer-wrapper">
-		<ul class="social-links text-center">
-			<li><a href="https://twitter.com/rijalaayush" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-			<li><a href="http://www.facebook.com/aayushrij" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-			</li>
-			<li><a href="https://www.instagram.com/aayushrij/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-			</li>
-		</ul>
-		<div class="copyright">
-			<a href="{{ route('home') }}"><i class="fa fa-copyright fa-lg"></i> {{ config('body.main_name') }} 2017</a>
 		</div>
 	</div>
 @endsection
