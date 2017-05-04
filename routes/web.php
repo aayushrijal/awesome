@@ -26,3 +26,11 @@ $router->get(
         'uses' => 'HomeController@gallery',
     )
 );
+
+$router->post(
+    'message',
+    array(
+        'as'   => 'message',
+        'uses' => 'HomeController@sendMessage',
+    )
+);

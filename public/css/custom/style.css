@@ -15,7 +15,7 @@ nav.navbar {
 }
 
 .hero-wrapper {
-    background: url('../../images/dummy.jpg') fixed;
+    background: url('../../images/3.jpg') fixed;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -27,7 +27,13 @@ nav.navbar {
 }
 
 .hero-banner {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     margin-top: 150px;
+    text-align: center;
+}
+.gallery-banner-text{
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    color: #fff;
     text-align: center;
 }
 
@@ -36,7 +42,7 @@ nav.navbar {
 }
 
 .intro-wrapper {
-    background: url('../../images/dummy.jpg') fixed;
+    background: url('../../images/1.jpg') fixed;
     height: 50vh;
     width: 100%;
     background-size: cover;
@@ -50,7 +56,7 @@ nav.navbar {
 }
 
 .contact-wrapper {
-    background: url('../../images/dummy.jpg') fixed;
+    background: url('../../images/4.jpg') fixed;
     height: 50vh;
     width: 100%;
     background-size: cover;

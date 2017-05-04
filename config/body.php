@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'main_name'            => 'ARYA STARK',
-    'profession'           => 'GRAPHIC DESIGNER',
+    'main_name'            => 'ROSHNI ADHIKARI',
+    'profession'           => 'DENTAL SURGEON STUDENT / MODEL',
     'personal_description' => 'My name is Roshni Adhikari. As I\'ve developed my skills, my passion for modelling has
     grown. I am drawn toward modern aesthetics of clothing and fashion. There is a beauty that comes from simplicity
     and a welcome challenge in accepting it. I have a background in dentistry, and continue to be inspired by my
